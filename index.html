@@ -1,34 +1,260 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html class="no-js" lang="en">
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Portfolio | Daniel Sakol</title>
-
-   
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/script1.js"></script>
-    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniel Sakol Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container">
-          <a href="index.html" id="logo">Daniel Sakol</a>
-          <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio/Pindex.html">Portfolio</a>
-            <a href="contact/Cindex.html">Contact</a>
-          </nav>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
-      </header>
-    
+        <div class="navbar-fixed">
+          <nav>
+            <div class="nav-wrapper">
+        <ul id="menu" class="right hide-on-med-and-down">
+            <img src="assets/PortfolioPic.jpg" id="pic">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+        <li class="dropdown">
+                <a href="#projects" class="dropbtn">Projects</a>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+      </div>
+      </nav>
+        </div>
+    </header>
+    <!-- End header -->
 
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Daniel Sakol</h1>
+            <h2>Northwestern School of Professional Studies</h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                    I am currently studying Fullstack Development at the Northwestern School of Professional Studies.
+                    blah blah blah blah blah                
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="August 2015 – Present">
+                <h3>PetSmart</h3>
+                <h4>Associate Lead</h4>
+                <p>
+                    Accessing and logging data/sales metrics, Excel, various company-centric apps (on iPad), preparing nightly cash deposit, and other retail management duties 
+                </p>
+            </div>
+
+            <div data-date="June 2013 – March 2014">
+                <h3>Peterson Park Healthcare Center</h3>
+                <h4>Social Services</h4>
+                <p>
+                    Assigned list of nursing home residents,  performed routine mental wellness tests, including Montreal Cognitive Assessment Test (MoCA), logged patient information into database.
+                </p>
+            </div>
+
+            <div data-date="October 2004 – July 2009">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Cashier, stockroom coordinator, other basic retail duties
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Northwestern School of Professional Studies</h3>
+            <span class="education-date">January 2019 - Present</span>
+            <h4>Full-Stack Development</h4>
+            <p>
+                Studying: JavaScript, CSS, html, node JS, Bootstrap, and jquery 
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Illinois Center for Broadcasting</h3>
+            <span class="education-date">Jan 2009 - October 2009</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <p>
+                Certification in TV/Radio Broadcasting.  Interned at WLS 890 am radio. 
+                Used: Final Cut, Adobe Premier, Pro Tools
+                
+            </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Project Name Here</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Project Name Here</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul id="front-end"> Front-End
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Bootstrap</li>
+            <li>Materialize</li>
+            <li>jquery</li>
+            <li>CSS Tricks</li>
+        </ul>
+        <ul id="back-end"> Back-End
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>NoSQL</li>
+            <li>MySQL</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Contact</h2>
+        <div id="contact-form">
+            <form method="POST" action="dannyacne@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Daniel Sakol
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <!-- <div id = "footer-links" class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script1.js"></script>
 </body>
+
+</html>
